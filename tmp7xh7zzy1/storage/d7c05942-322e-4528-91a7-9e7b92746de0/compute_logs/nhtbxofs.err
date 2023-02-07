@@ -1,0 +1,7 @@
+[32m2023-02-07 04:59:15 +0000[0m - dagster - [34mDEBUG[0m - all_assets_job - d7c05942-322e-4528-91a7-9e7b92746de0 - 2358 - LOGS_CAPTURED - Started capturing logs in process (pid: 2358).
+[32m2023-02-07 04:59:15 +0000[0m - dagster - [34mDEBUG[0m - all_assets_job - d7c05942-322e-4528-91a7-9e7b92746de0 - 2358 - hackernews_topstory_ids - STEP_START - Started execution of step "hackernews_topstory_ids".
+[32m2023-02-07 04:59:15 +0000[0m - dagster - [34mDEBUG[0m - all_assets_job - d7c05942-322e-4528-91a7-9e7b92746de0 - 2358 - hackernews_topstory_ids - STEP_OUTPUT - Yielded output "result" of type "[Int]". (Type check passed).
+[32m2023-02-07 04:59:15 +0000[0m - dagster - [34mDEBUG[0m - all_assets_job - d7c05942-322e-4528-91a7-9e7b92746de0 - hackernews_topstory_ids - Writing file at: /workspaces/dagster-tutorial/tmp7xh7zzy1/storage/hackernews_topstory_ids
+[32m2023-02-07 04:59:15 +0000[0m - dagster - [34mDEBUG[0m - all_assets_job - d7c05942-322e-4528-91a7-9e7b92746de0 - 2358 - hackernews_topstory_ids - ASSET_MATERIALIZATION - Materialized value hackernews_topstory_ids.
+[32m2023-02-07 04:59:15 +0000[0m - dagster - [34mDEBUG[0m - all_assets_job - d7c05942-322e-4528-91a7-9e7b92746de0 - 2358 - hackernews_topstory_ids - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+[32m2023-02-07 04:59:15 +0000[0m - dagster - [34mDEBUG[0m - all_assets_job - d7c05942-322e-4528-91a7-9e7b92746de0 - 2358 - hackernews_topstory_ids - STEP_SUCCESS - Finished execution of step "hackernews_topstory_ids" in 546ms.

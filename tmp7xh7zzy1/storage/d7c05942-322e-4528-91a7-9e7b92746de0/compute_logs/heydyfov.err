@@ -1,0 +1,36 @@
+[32m2023-02-07 04:59:17 +0000[0m - dagster - [34mDEBUG[0m - all_assets_job - d7c05942-322e-4528-91a7-9e7b92746de0 - 2409 - LOGS_CAPTURED - Started capturing logs in process (pid: 2409).
+[32m2023-02-07 04:59:17 +0000[0m - dagster - [34mDEBUG[0m - all_assets_job - d7c05942-322e-4528-91a7-9e7b92746de0 - 2409 - hackernews_topstories - STEP_START - Started execution of step "hackernews_topstories".
+[32m2023-02-07 04:59:18 +0000[0m - dagster - [34mDEBUG[0m - all_assets_job - d7c05942-322e-4528-91a7-9e7b92746de0 - hackernews_topstories - Loading file from: /workspaces/dagster-tutorial/tmp7xh7zzy1/storage/hackernews_topstory_ids
+[32m2023-02-07 04:59:18 +0000[0m - dagster - [34mDEBUG[0m - all_assets_job - d7c05942-322e-4528-91a7-9e7b92746de0 - 2409 - hackernews_topstories - ASSET_OBSERVATION - ASSET_OBSERVATION for step hackernews_topstories
+[32m2023-02-07 04:59:18 +0000[0m - dagster - [34mDEBUG[0m - all_assets_job - d7c05942-322e-4528-91a7-9e7b92746de0 - 2409 - hackernews_topstories - LOADED_INPUT - Loaded input "hackernews_topstory_ids" using input manager "io_manager", from output "result" of step "hackernews_topstory_ids"
+[32m2023-02-07 04:59:18 +0000[0m - dagster - [34mDEBUG[0m - all_assets_job - d7c05942-322e-4528-91a7-9e7b92746de0 - 2409 - hackernews_topstories - STEP_INPUT - Got input "hackernews_topstory_ids" of type "[Int]". (Type check passed).
+[32m2023-02-07 04:59:20 +0000[0m - dagster - [34mINFO[0m - all_assets_job - d7c05942-322e-4528-91a7-9e7b92746de0 - hackernews_topstories - Got 20 items so far.
+[32m2023-02-07 04:59:23 +0000[0m - dagster - [34mINFO[0m - all_assets_job - d7c05942-322e-4528-91a7-9e7b92746de0 - hackernews_topstories - Got 40 items so far.
+[32m2023-02-07 04:59:25 +0000[0m - dagster - [34mINFO[0m - all_assets_job - d7c05942-322e-4528-91a7-9e7b92746de0 - hackernews_topstories - Got 60 items so far.
+[32m2023-02-07 04:59:28 +0000[0m - dagster - [34mINFO[0m - all_assets_job - d7c05942-322e-4528-91a7-9e7b92746de0 - hackernews_topstories - Got 80 items so far.
+[32m2023-02-07 04:59:30 +0000[0m - dagster - [34mINFO[0m - all_assets_job - d7c05942-322e-4528-91a7-9e7b92746de0 - hackernews_topstories - Got 100 items so far.
+[32m2023-02-07 04:59:33 +0000[0m - dagster - [34mINFO[0m - all_assets_job - d7c05942-322e-4528-91a7-9e7b92746de0 - hackernews_topstories - Got 120 items so far.
+[32m2023-02-07 04:59:36 +0000[0m - dagster - [34mINFO[0m - all_assets_job - d7c05942-322e-4528-91a7-9e7b92746de0 - hackernews_topstories - Got 140 items so far.
+[32m2023-02-07 04:59:38 +0000[0m - dagster - [34mINFO[0m - all_assets_job - d7c05942-322e-4528-91a7-9e7b92746de0 - hackernews_topstories - Got 160 items so far.
+[32m2023-02-07 04:59:41 +0000[0m - dagster - [34mINFO[0m - all_assets_job - d7c05942-322e-4528-91a7-9e7b92746de0 - hackernews_topstories - Got 180 items so far.
+[32m2023-02-07 04:59:43 +0000[0m - dagster - [34mINFO[0m - all_assets_job - d7c05942-322e-4528-91a7-9e7b92746de0 - hackernews_topstories - Got 200 items so far.
+[32m2023-02-07 04:59:45 +0000[0m - dagster - [34mINFO[0m - all_assets_job - d7c05942-322e-4528-91a7-9e7b92746de0 - hackernews_topstories - Got 220 items so far.
+[32m2023-02-07 04:59:48 +0000[0m - dagster - [34mINFO[0m - all_assets_job - d7c05942-322e-4528-91a7-9e7b92746de0 - hackernews_topstories - Got 240 items so far.
+[32m2023-02-07 04:59:50 +0000[0m - dagster - [34mINFO[0m - all_assets_job - d7c05942-322e-4528-91a7-9e7b92746de0 - hackernews_topstories - Got 260 items so far.
+[32m2023-02-07 04:59:53 +0000[0m - dagster - [34mINFO[0m - all_assets_job - d7c05942-322e-4528-91a7-9e7b92746de0 - hackernews_topstories - Got 280 items so far.
+[32m2023-02-07 04:59:55 +0000[0m - dagster - [34mINFO[0m - all_assets_job - d7c05942-322e-4528-91a7-9e7b92746de0 - hackernews_topstories - Got 300 items so far.
+[32m2023-02-07 04:59:58 +0000[0m - dagster - [34mINFO[0m - all_assets_job - d7c05942-322e-4528-91a7-9e7b92746de0 - hackernews_topstories - Got 320 items so far.
+[32m2023-02-07 05:00:00 +0000[0m - dagster - [34mINFO[0m - all_assets_job - d7c05942-322e-4528-91a7-9e7b92746de0 - hackernews_topstories - Got 340 items so far.
+[32m2023-02-07 05:00:03 +0000[0m - dagster - [34mINFO[0m - all_assets_job - d7c05942-322e-4528-91a7-9e7b92746de0 - hackernews_topstories - Got 360 items so far.
+[32m2023-02-07 05:00:05 +0000[0m - dagster - [34mINFO[0m - all_assets_job - d7c05942-322e-4528-91a7-9e7b92746de0 - hackernews_topstories - Got 380 items so far.
+[32m2023-02-07 05:00:08 +0000[0m - dagster - [34mINFO[0m - all_assets_job - d7c05942-322e-4528-91a7-9e7b92746de0 - hackernews_topstories - Got 400 items so far.
+[32m2023-02-07 05:00:11 +0000[0m - dagster - [34mINFO[0m - all_assets_job - d7c05942-322e-4528-91a7-9e7b92746de0 - hackernews_topstories - Got 420 items so far.
+[32m2023-02-07 05:00:13 +0000[0m - dagster - [34mINFO[0m - all_assets_job - d7c05942-322e-4528-91a7-9e7b92746de0 - hackernews_topstories - Got 440 items so far.
+[32m2023-02-07 05:00:16 +0000[0m - dagster - [34mINFO[0m - all_assets_job - d7c05942-322e-4528-91a7-9e7b92746de0 - hackernews_topstories - Got 460 items so far.
+[32m2023-02-07 05:00:18 +0000[0m - dagster - [34mINFO[0m - all_assets_job - d7c05942-322e-4528-91a7-9e7b92746de0 - hackernews_topstories - Got 480 items so far.
+[32m2023-02-07 05:00:21 +0000[0m - dagster - [34mINFO[0m - all_assets_job - d7c05942-322e-4528-91a7-9e7b92746de0 - hackernews_topstories - Got 500 items so far.
+[32m2023-02-07 05:00:21 +0000[0m - dagster - [34mDEBUG[0m - all_assets_job - d7c05942-322e-4528-91a7-9e7b92746de0 - 2409 - hackernews_topstories - STEP_OUTPUT - Yielded output "result" of type "DataFrame". (Type check passed).
+[32m2023-02-07 05:00:21 +0000[0m - dagster - [34mDEBUG[0m - all_assets_job - d7c05942-322e-4528-91a7-9e7b92746de0 - hackernews_topstories - Writing file at: /workspaces/dagster-tutorial/tmp7xh7zzy1/storage/hackernews_topstories
+[32m2023-02-07 05:00:21 +0000[0m - dagster - [34mDEBUG[0m - all_assets_job - d7c05942-322e-4528-91a7-9e7b92746de0 - 2409 - hackernews_topstories - ASSET_MATERIALIZATION - Materialized value hackernews_topstories.
+[32m2023-02-07 05:00:21 +0000[0m - dagster - [34mDEBUG[0m - all_assets_job - d7c05942-322e-4528-91a7-9e7b92746de0 - 2409 - hackernews_topstories - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+[32m2023-02-07 05:00:21 +0000[0m - dagster - [34mDEBUG[0m - all_assets_job - d7c05942-322e-4528-91a7-9e7b92746de0 - 2409 - hackernews_topstories - STEP_SUCCESS - Finished execution of step "hackernews_topstories" in 1m3s.
