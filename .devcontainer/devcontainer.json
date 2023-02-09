@@ -12,8 +12,8 @@
 	"forwardPorts": [3000],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"updateContentCommand": "mkdir ~/.dagster && export DAGSTER_HOME=~/.dagster && pip install -e \".[dev]\"" //,
-// 	"postCreateCommand": "dagster dev" // Commenting this out "temporarily" because this prevents codespaces from automatically spinning down
+	"updateContentCommand": "mkdir ~/.dagster && pip install -e \".[dev]\"",
+	"postCreateCommand": "DAGSTER_HOME=~/.dagster && nohup dagster dev" // Commenting this out "temporarily" because this prevents codespaces from automatically spinning down
 
 	// Configure tool-specific properties.
 	// "customizations": {},
