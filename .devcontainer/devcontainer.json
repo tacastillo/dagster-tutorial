@@ -13,10 +13,16 @@
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	"updateContentCommand": "mkdir ~/.dagster && pip install -e \".[dev]\"",
-	"postCreateCommand": "DAGSTER_HOME=~/.dagster && nohup dagster dev" // Commenting this out "temporarily" because this prevents codespaces from automatically spinning down
+	"postCreateCommand": "DAGSTER_HOME=~/.dagster && nohup dagster dev &",
 
 	// Configure tool-specific properties.
-	// "customizations": {},
+	"customizations": {
+	  "codespaces": {
+	    "openFiles": [
+		".devcontainer/GETTING-STARTED.md"
+	    ]
+	  }
+	}
 
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"
