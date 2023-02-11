@@ -6,6 +6,10 @@ GitHub Codespaces is a cloud-hosted IDE. It's a fully-featured version of Visual
 
 Saving your code will be stored across Codespace sessions. You'll also be able to commit and raise pull requests from within the IDE.
 
+## Opening a Codespace
+
+Once it's open, give it a minute to start up and run `dagster dev` for you.
+
 ## Pricing and turning off your Codespace
 
 The 2-Core version of GitHub Codespaces are free for up to 60 hours a month.
