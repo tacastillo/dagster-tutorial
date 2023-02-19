@@ -6,6 +6,8 @@ To run Dagster, navigate to the Terminal tab below and run `dagster dev`. Your D
 
 To get to the Dagster UI, navigate to the Ports tab next to the Terminal tab, hover over the Local Address in row for port 3000, and click on the globe icon to open it in a new tab.
 
+![the ports tab in GitHub Codespaces](./preview-icons.png)
+
 This codespace comes with all of Dagster's Python dependencies pre-installed, along with any dependencies found in `setup.py`.
 
 > **Note**
