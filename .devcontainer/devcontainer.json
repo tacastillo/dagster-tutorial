@@ -13,7 +13,6 @@
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	"updateContentCommand": "mkdir /workspaces/.dagster && pip install -e \".[dev]\"",
-	"postCreateCommand": "DAGSTER_HOME=/workspaces/.dagster dagster dev",
 
 	// Configure tool-specific properties.
 	"customizations": {
