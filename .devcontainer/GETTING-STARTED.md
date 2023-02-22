@@ -2,7 +2,7 @@
 
 ## Running Dagster
 
-To run Dagster, navigate to the Terminal tab below and run `dagster dev`. Your Dagster instance will start up.
+To run Dagster, navigate to the Terminal tab below, `cd` into one of the Dagster projects, and run `dagster dev`. Your Dagster instance will start up.
 
 To get to the Dagster UI, navigate to the Ports tab next to the Terminal tab, hover over the Local Address in row for port 3000, and click on the globe icon to open it in a new tab.
 
