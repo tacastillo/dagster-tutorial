@@ -1,17 +1,16 @@
 from setuptools import find_packages, setup
 
 setup(
-    name="quickstart_etl",
-    packages=find_packages(exclude=["quickstart_etl_tests"]),
+    name="tutorial",
+    packages=find_packages(exclude=["tutorial_tests"]),
     install_requires=[
         "dagster",
         "dagster-cloud",
-        "boto3",
+        "dagster-duckdb",
+        "dagster-duckdb-pandas",
         "pandas",
         "matplotlib",
-        "textblob",
-        "tweepy",
-        "wordcloud",
+        "wordcloud"
     ],
     extras_require={"dev": ["dagit", "pytest"]},
 )
