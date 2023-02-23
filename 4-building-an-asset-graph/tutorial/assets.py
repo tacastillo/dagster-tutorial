@@ -41,7 +41,7 @@ def topstories(topstory_ids):
 
 
 @asset
-def topstories_word_cloud(topstories):
+def topstories_word_cloud(topstories: pd.DataFrame):
     stopwords = set(STOPWORDS)
     stopwords.update(["Ask", "Show", "HN", "S"])
     titles_text = " ".join([str(item) for item in topstories["title"]])

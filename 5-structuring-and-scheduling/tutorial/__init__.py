@@ -14,7 +14,7 @@ hackernews_assets = load_assets_from_modules([assets])
 # Define a job that will materialize the assets
 hackernews_job = define_asset_job(
     "hackernews_job",
-    selection=AssetSelection.groups("hackernews")
+    selection=AssetSelection.all()
 )
 
 # Define a schedule that will run the job every hour
