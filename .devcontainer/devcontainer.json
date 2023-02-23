@@ -12,7 +12,7 @@
 	"forwardPorts": [3000],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"updateContentCommand": "mkdir /workspaces/.dagster && pip install -e \".[dev]\"",
+	"updateContentCommand": "cd ./2-setup && pip install -e \".[dev]\"",
 
 	// Configure tool-specific properties.
 	"customizations": {
